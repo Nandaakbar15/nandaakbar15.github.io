@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/images/portfolioicon.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#myprofile">My Profile</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="myprofile">
+    <div class="container">
+      <h2>My Profile</h2>
+      <img src="assets/images/Foto profil.jpg" alt="Foto Profil" style="max-width: 150px; border-radius: 50%; margin: 10px 0;">
+      <ul>
+        <li><strong>Nama:</strong> Alvinda Akbar Geannasech</li>
+        <li><strong>Tempat dan Tanggal Lahir:</strong> 15 Juli 2001</li>
+        <li><strong>Alamat:</strong> Jl. Perumahan Grand Terra Cimahi, <br> Ciawitali, Citeureup, Kec. Cimahi Utara, Kota Cimahi, Jawa Barat 40512</li>
+        <li><strong>Email:</strong> <a href="alvindaakbar@gmail.com"> alvindaakbar@gmail.com</a></li>
+        <li><strong>Contacts:</strong> 081818132011</li>
+        <li><strong>Github:</strong><a href="https://github.com/Nandaakbar15"> Nandaakbar15</a></li>
+      </ul>
+    </div>
+  </section>
+  
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Halo, nama saya Al-Vinda Akbar seorang lulusan IT yang juga tertarik pada dunia teknologi semenjak saya masuk kuliah.</p>
+      <p>Saya mempunyai pengalaman dalam pengembangan website dan juga pernah mengembangkan sebuah Rest API dengan menggunakan NestJS</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Laravel, Node.js, Express.js</li>
+        <li>MySQL, MongoDB</li>
+        <li>Bootstrap, Tailwind CSS</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>CV Gilang Kencana Website</h3>
+          <img src="/assets/images/Screenshot project website CV Gilang Kencana Mulya.PNG" width="250px" height="150px" alt="" srcset="">
+          <p>Website untuk informasi perusahaan CV Gilang Kencana</p>
+          <p>Fitur Utama : </p>
+          <ul>
+            <li>CRUD Data Kontraktor / Personil di halaman Admin</li>
+            <li>CRUD Data Kontak</li>
+            <li>Menampilkan halaman tentang perusahaan</li>
+            <li>Menampilkan halaman list kontraktor atau personil</li>
+            <li>Menampilkan proyek-proyek yang sudah dikerjakan</li>
+          </ul>
+          <p>Teknologi yang dipakai: Laravel, Bootstrap, PHP dan Javascript</p>
+        </div>
+        <div class="project-card">
+          <h3>Website Animeku</h3>
+          <img src="/assets/images/Screenshot project Animeku Website.PNG" width="250px" height="150px" alt="" srcset="">
+          <p>Website pribadi yang menampilkan list anime yang popular dan juga menampilkan berita seputar anime.</p>
+          <p>Fitur Utama : </p>
+          <ul>
+            <li>CRUD Data Anime di halaman Admin</li>
+            <li>CRUD Data Post di halaman Admin</li>
+            <li>Menampilkan List Anime</li>
+            <li>Menampilkan detail atau info Anime</li>
+            <li>Menampilkan berita seputar Anime</li>
+          </ul>
+          <p>Teknologi yang dipakai : NodeJS, ExpressJS, Bootstrap dan MongoDB</p>
+        </div>
+        <div class="project-card">
+          <h3>Website Tatsuya Mangashop</h3>
+          <img src="assets/images/Screenshot project Tatsuya Mangashop website.PNG"  width="250px" height="150px" alt="" srcset="">
+          <p>Website pribadi yang menampilkan list manga yang popular</p>
+          <p>Fitur Utama : </p>
+          <ul>
+            <li>CRUD Data Manga</li>
+            <li>CRUD Data Kontak</li>
+            <li>Menampilkan List Manga</li>
+            <li>Menampilkan Detail atau info tentang Manga</li>
+          </ul>
+          <p>Teknologi Yang dipakai : NodeJS, Expressjs, Bootstrap dan MongoDB</p>
+        </div>
+        <div class="project-card">
+          <h3>Tugas Akhir Servis Playstation berbasis website</h3>
+          <img src="assets/images/Screenshot project Tugas Akhir.jpg"  width="250px" height="150px" alt="" srcset="">
+          <p>Project Tugas Akhir berbasis website yang mengelola servis playstation dan pembayaran menggunakan Midtrans</p>
+          <p>Fitur Utama : </p>
+          <ul>
+            <li>CRUD Data Game</li>
+            <li>CRUD Data Teknisi</li>
+            <li>Mengubah Status Servis ketika proses servis sudah selesai</li>
+            <li>Laporan Servis dapat di download menjadi file PDF atau Excel</li>
+            <li>Melihat Status Pembayaran atau transaksi yang masuk dari pelanggan</li>
+            <li>Mengisi data pribadi (nama, email, dan nomor kontak), mengisi nama konsol, upload foto konsol dan kendala/kerusakan</li>
+            <li>Menambahkan Request Game yang di inginkan ke dalam konsolnya</li>
+            <li>Melihat Status Servis konsol yang di perbaiki oleh teknisi</li>
+            <li>Pembayaran menggunakan Midtrans</li>
+          </ul>
+          <p>Teknologi Yang dipakai : Laravel, HTML, CSS, Javascript, dan MySQL</p>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="alvindaakbar@gmail.com">alvindaakbar@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Alvinda Akbar. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

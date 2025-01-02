@@ -1,0 +1,204 @@
+/* Reset dasar */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Gaya untuk header */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  header h1 {
+    font-size: 24px;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  header nav ul li {
+    margin: 0 10px;
+  }
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Gaya untuk container */
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  /* Styling untuk profile */
+  #myprofile {
+    background: #f9f9f9;
+    padding: 20px 0;
+    text-align: center;
+  }
+  #myprofile img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 10px 0;
+  }
+  #myprofile ul {
+    list-style: none;
+    padding: 0;
+  }
+  #myprofile ul li {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  #myprofile ul li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  #myprofile ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* Gaya untuk About */
+  #about {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+  }
+  #about h2 {
+    margin-bottom: 10px;
+  }
+
+  /* Gaya untuk Projects */
+  #projects {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .project-card {
+    background: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .project-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* Gaya untuk Contact */
+  #contact {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  #contact a {
+    color: #ff7f50;
+    text-decoration: none;
+  }
+  #contact a:hover {
+    text-decoration: underline;
+  }
+
+  /* Gaya untuk Skill */
+  #skills {
+    background: #ddd;
+    padding: 20px 0;
+    text-align: center;
+  }
+  #skills h2 {
+    margin-bottom: 10px;
+  }
+
+  #skills ul {
+    list-style-type: none;
+  }
+  
+  /* Footer */
+  footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  
+/* Hover Effect untuk Kartu Project */
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease-in-out;
+}
+
+/* Navigasi Responsif */
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Gambar Responsif */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Card Styling */
+.project-card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling untuk List */
+.project-card ul {
+  padding-left: 20px; /* Memberi jarak antara bullet dan teks */
+  list-style-type: none; /* Bullet dengan bentuk lingkaran */
+  margin-top: 10px; /* Memberi jarak ke atas */
+  margin-bottom: 10px; /* Memberi jarak ke bawah */
+}
+
+.project-card li {
+  line-height: 1.6; /* Memberi ruang antar baris */
+}
+
+/* Gambar dalam Card */
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; /* Membuat sudut gambar sedikit melengkung */
+  margin-bottom: 10px;
+}
+
